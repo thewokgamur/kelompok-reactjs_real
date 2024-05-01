@@ -14,8 +14,8 @@ frontend: npm install express
           npm install react-bootstrap
           npm install aos --save
           
-backend: npm install express
-         npm install mysql
-         npm install axios
-         npm install cors
-         npm install multer
+backend:  npm install express
+          npm install mysql
+          npm install axios
+          npm install cors
+          npm install multer
