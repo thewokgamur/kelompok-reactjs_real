@@ -8,7 +8,14 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 frontend: npm install express
-          npm install axios
           npm install mysql
           npm install axios
           NPM INSTALL react-router-dom
+          npm install react-bootstrap
+          npm install aos --save
+          
+backend: npm install express
+         npm install mysql
+         npm install axios
+         npm install cors
+         npm install multer
