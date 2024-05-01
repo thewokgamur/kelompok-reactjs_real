@@ -1,0 +1,147 @@
+body{
+  background: #120044; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #f7797d, #180050, #1a0049); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #270041, #000438, #450053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.card{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  border-radius: 5%;
+  border: 3px solid #f1f1f1;
+}
+.tcard{
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+  border-radius: 5%;
+  border: 10px solid #f1f1f1;
+}
+.tbutton2{
+  padding-left: 350px;
+}
+.tbutton{
+  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1000ms; /* don't forget to set a duration! */
+  margin-left: 25px;
+  padding-left: 100px;
+  border: 2px solid #f1f1f1;
+  background: linear-gradient(to left, #96009b, #000cb4, #450053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.ctext{
+  color: azure;
+  font-family: Arial, sans-serif;
+}
+.cimg{
+  border-radius: 5%;
+}
+.timg{
+  width: 18rem;
+  border-radius: 5%;
+  scale:150%;
+  margin-right: 700px;
+  padding-top: 75px;
+  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 750ms; /* don't forget to set a duration! */
+}
+.Ttitle{
+  color: azure;
+  font-family: Arial, sans-serif;
+  padding-left: 250px;
+  padding-bottom: 300px;
+  scale:200%;
+  animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 900ms; /* don't forget to set a duration! */
+}
+.deskripsi{
+  color: azure;
+  padding-top: 150px;
+  margin-left: 550px;
+  scale: 175%;
+  width: 25rem;
+}
+.Tprice{
+  color: azure;
+  font-family: Arial, sans-serif;
+  padding-left: 150px;
+  padding-bottom: 450px;
+  scale:250%;
+  animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1100ms; /* don't forget to set a duration! */
+}
+.Tstar{
+  padding-right: 250px;
+  margin-top: -650px;
+  scale:200%;
+  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1000ms; /* don't forget to set a duration! */
+}
+.end{
+  margin-top: 1000px;
+}
+strong{
+  color: azure;
+}
+i {
+  color: gold;
+}
+.profil{
+  animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1000ms; /* don't forget to set a duration! */
+}
+.nama{
+  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1500ms; /* don't forget to set a duration! */
+}
+.nav{
+  margin-left: -575px;
+  animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 500ms; /* don't forget to set a duration! */
+}
+.navbar .nav-link{
+  padding: 5px 100px 5px 100px;
+  font-weight: 500;
+  text-decoration: none;
+}
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+h1{
+  color: azure;
+}
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 1em;
+}
+
+.read-the-docs {
+  color: #888;
+}
