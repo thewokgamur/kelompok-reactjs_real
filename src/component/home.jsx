@@ -11,6 +11,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from '../header.jsx';
+import Footer from '../footer.jsx';
 import { useState } from 'react';
 import semuakelas from '../data/index'
 import { Link, useParams, Navigate } from 'react-router-dom';
@@ -100,6 +101,7 @@ function Introduction({ nama, kelas }){
 
   
   </Container>
+            <Footer />
   </div>
       </>
     )
