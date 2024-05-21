@@ -52,10 +52,11 @@ app.post('/create', upload.single('file'), (req, res) => {
     if(!req.file) {
         return res.json({Error: "File is required"});
     }
-    const sql = "INSERT INTO product (`name`,`price`,`image`) VALUES (?, ?, ?)"; 
+    const sql = "INSERT INTO product (`name`,`price`,`deskripsi`,`image`) VALUES (?, ?,?, ?)"; 
     const values = [
         req.body.name,
         req.body.price,
+        req.body.deskripsi,
         req.file.filename
     ]
     con.query(sql, values, (err, result) => {
