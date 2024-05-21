@@ -6,6 +6,7 @@ import Header from '../header.jsx';
 function Upload() {
     const [name, setName] = useState("");
     const [price, setPrice] = useState("");
+    const [deskripsi, setD] = useState("");
     const [file, setFile] = useState()
     const [msg, setMsg] = useState("");
        
@@ -13,6 +14,7 @@ function Upload() {
         const formData = new FormData()
         formData.append("name", name);
         formData.append("price", price);
+        formData.append("deskripsi", deskripsi);
         formData.append('file', file)
         axios.post('http://localhost:3001/create',formData )
         .then((response) => {
@@ -38,6 +40,12 @@ function Upload() {
             <label className="form-label">Price</label>
             <input type="text" className="form-control" placeholder='Enter Price' autoComplete='off'
             onChange={(e) => setPrice(e.target.value)}/> 
+        </div>
+
+        <div className="col-12">
+            <label className="form-label">Deskripsi</label>
+            <textarea  cols="30" rows="10" style={{height: '100px'}} type="text" className="form-control" placeholder='Enter Deskripsi' autoComplete='off'
+            onChange={(e) => setD(e.target.value)}/> 
         </div>
                  
         <div className="col-12">

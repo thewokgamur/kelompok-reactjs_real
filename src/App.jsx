@@ -4,6 +4,9 @@ import Home from './component/home'
 import Toko from './component/toko'
 import Upload from './component/upload'
 import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
+import '@mantine/core/styles.css';
+
+import { MantineProvider } from '@mantine/core';
 
 function Introduction({ nama, kelas }){
   return (

@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
+import { Link } from 'react-router-dom';
 
 const Header = () => {
     return(
@@ -15,6 +16,13 @@ const Header = () => {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
             <Nav.Link className='ctext' href="/">Home</Nav.Link>
+            <Link
+              to={{
+                pathname: `/upload`,
+              }}
+            >
+              <button>Upload Produk Baru</button>
+            </Link>
             <NavDropdown className='ctext' title="Dropdown" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">

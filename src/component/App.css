@@ -6,63 +6,122 @@ body{
 .card{
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  border-radius: 5%;
   border: 3px solid #f1f1f1;
 }
 .tcard{
   background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
-  border-radius: 5%;
-  border: 10px solid #f1f1f1;
+  background-color: rgba(0,0,0, 0.1); /* Black w/opacity/see-through */
+  border: 5px solid #f1f1f1;
 }
 .tbutton2{
+  margin-top: -200px;
   padding-left: 350px;
 }
 .tbutton{
+  width: 20rem;
+  text-align: center;
   animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1000ms; /* don't forget to set a duration! */
-  margin-left: 25px;
-  padding-left: 100px;
+  margin-top: 30px;
+  margin-left: 10px;
   border: 2px solid #f1f1f1;
   background: linear-gradient(to left, #96009b, #000cb4, #450053); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .ctext{
+  text-align: center;
   color: azure;
   font-family: Arial, sans-serif;
 }
 .cimg{
-  border-radius: 5%;
+  border-radius: 30px;
 }
 .timg{
   width: 18rem;
-  border-radius: 5%;
+  border-radius: 30px;
   scale:150%;
-  margin-right: 700px;
+  margin-left: 400px;
   padding-top: 75px;
   animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 750ms; /* don't forget to set a duration! */
 }
+.TPcard{
+  width: 18rem;
+  margin-left: 175px;
+  padding-top: 175px;
+  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 750ms; /* don't forget to set a duration! */
+}
+.tpcard{
+  width: 18rem;
+  margin-left: 1275px;
+  margin-top: -1550px;
+  margin-bottom: -600px;
+  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 750ms; /* don't forget to set a duration! */
+}
+.stock{
+  width: 18rem;
+  margin-left: 125px;
+  margin-top: 150px;
+  margin-bottom: -150px;
+  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 750ms; /* don't forget to set a duration! */
+}
+.iimg{
+  margin-top: -50px;
+  margin-bottom: -200px;
+  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 750ms; /* don't forget to set a duration! */
+}
+
+
+.harga{
+  width: 18rem;
+  margin-left: 0px;
+  margin-top: 200px;
+  margin-bottom: -205px;
+  animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 750ms; /* don't forget to set a duration! */
+}
+
+
 .Ttitle{
+  text-align: left;
+  width: 65rem;
   color: azure;
   font-family: Arial, sans-serif;
-  padding-left: 250px;
-  padding-bottom: 300px;
-  scale:200%;
+  padding-left: 725px;
+  margin-top: -75px;
+  padding-bottom: 375px;
+  scale:150%;
   animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 900ms; /* don't forget to set a duration! */
 }
+pre {
+  display: block;
+  font-family: monospace;
+  white-space: pre;
+  margin: 1em 0;
+} 
 .deskripsi{
+  width: 10px;
+  text-align: left;
+  resize: none;
   color: azure;
-  padding-top: 150px;
-  margin-left: 550px;
-  scale: 175%;
-  width: 25rem;
+  margin-top: 450px;
+  margin-bottom: 100px;
+  margin-left: 480px;
+  scale: 125%;
+  width: 75rem;
+  height: 50rem;
+  background-color: rgba(0,0,0, 0); /* Black w/opacity/see-through */
 }
 .Tprice{
+  text-align: left;
   color: azure;
   font-family: Arial, sans-serif;
-  padding-left: 150px;
-  padding-bottom: 450px;
+  padding-left: 890px;
+  margin-top: -400px;
   scale:250%;
   animation: fadeInDown; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 1100ms; /* don't forget to set a duration! */
@@ -102,14 +161,17 @@ i {
   text-decoration: none;
 }
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 0rem;
 }
 h1{
   color: azure;
 }
+
+h3{
+  color: azure;
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
