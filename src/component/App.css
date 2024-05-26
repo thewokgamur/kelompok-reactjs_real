@@ -116,6 +116,14 @@ pre {
   height: 50rem;
   background-color: rgba(0,0,0, 0); /* Black w/opacity/see-through */
 }
+.salman{
+  scale: 15%;
+  margin-right: 80px;
+  margin-bottom: 50px;
+  margin-top: -40px;
+  padding-bottom: 5px;
+  padding-top: 50px;
+}
 .Tprice{
   text-align: left;
   color: azure;
