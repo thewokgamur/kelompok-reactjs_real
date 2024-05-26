@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container'
 import Nav from 'react-bootstrap/Nav'
 import Navbar from 'react-bootstrap/Navbar'
 import NavDropdown from 'react-bootstrap/NavDropdown'
+import logo from './assets/salmanstore.png';
 import { Link } from 'react-router-dom';
 
 const Header = () => {
@@ -11,7 +12,7 @@ const Header = () => {
 <span>
 <Navbar className='nav' expand="lg">
       <Container>
-        <Navbar.Brand className='ctext' href="/">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand style={{ width: '50px', height: '50px' }} className='salman' href="/"><img src={logo} alt="" /></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
