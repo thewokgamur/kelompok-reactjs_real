@@ -54,7 +54,7 @@ body{
 .tpcard{
   width: 18rem;
   margin-left: 1275px;
-  margin-top: -1550px;
+  margin-top: -1000px;
   margin-bottom: -600px;
   animation: fadeInUp; /* referring directly to the animation's @keyframe declaration */
   animation-duration: 750ms; /* don't forget to set a duration! */
@@ -108,7 +108,7 @@ pre {
   text-align: left;
   resize: none;
   color: azure;
-  margin-top: 450px;
+  margin-top: 350px;
   margin-bottom: 100px;
   margin-left: 480px;
   scale: 125%;
