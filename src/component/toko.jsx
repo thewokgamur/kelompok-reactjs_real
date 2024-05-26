@@ -45,7 +45,7 @@ const Toko = () => {
           </div>
           <div className="Ttitle">{ddd.name}</div>
           <div className="Tprice">RP {ddd.price}</div>
-          <pre style={{ width: '380px;overflow:auto' }} rows="100" className="deskripsi">{ddd.deskripsi}</pre>
+          <textarea row={4} cols={4} disabled={true} style={{ width: '700px', height: '300px' }} rows="100" className="deskripsi">{ddd.deskripsi}</textarea>
           <Card style={{ width: '380px', height: '480px' }} className="tpcard">
             <div>
             <img style={{ width: '100px', height: '100px' }}  className="iimg" src={'http://localhost:3001/images/'+ ddd.image}/>
